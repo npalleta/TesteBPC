@@ -1,0 +1,8 @@
+##YAML Template
+---
+
+default: -p chrome -p environment -p report
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+environment: ENVIRONMENT=environment
+report: --format Fivemat -f html -o results/report/report.html
