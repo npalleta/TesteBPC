@@ -8,7 +8,7 @@ Funcionalidade: Realizar o cadastro de cliente na plataforma
 Esquema do Cenário: Realizar o Cadastro na Plataforma
 
 Dado que acesso a <pagina> desejada
-E a <pagina> deve ser a principal
+E a <pagina> deverá ser apresentada
 Quando eu clico no botão <valor> de empréstimo
 E clico no botão quantidade de <parcelas>
 E preencho o campo Nome <nome_completo>

@@ -7,7 +7,7 @@ Funcionalidade: Acessando a URL desejada
 Esquema do Cenário: Acessar a URL desejada
 
 Dado que acesso a <pagina> desejada
-Então a <pagina> deve ser a principal
+Então a <pagina> deverá ser apresentada
 Exemplos:
 | pagina                |
 | "emprestimo-pessoal/" |
