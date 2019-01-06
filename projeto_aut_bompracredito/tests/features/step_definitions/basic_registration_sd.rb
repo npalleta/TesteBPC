@@ -54,6 +54,6 @@ Então('eu devo clicar no botão Continuar') do
   basic_registration_page.click_btn_continue
 end
 
-Então(`a página de cadastro de endereço deverá ser visualizada`) do
+Então('a página de cadastro de endereço deverá ser visualizada') do
   basic_registration_page.check_current_url('endereco')
 end
