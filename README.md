@@ -19,7 +19,7 @@ Foi aqui utilizada a linguagem Ruby e a gems necessárias para a criação da au
 Para rodar os testes, deverão ser instalados na máquina o pacote Ruby, o Bundler como controlador das dependências
 (para baixar as gems) e o framework cucumber.
 
-Na pasta results/report existe um html com o resultado da execução dos testes e na pasta results/screenshots (gerada no momento da execução dos testes) serão salvas as evidências com hora e data para cada vez que a suíte rodar.
+Na pasta ***results/report*** existe um html com o resultado da execução dos testes e na pasta ***results/screenshots*** (gerada no momento da execução dos testes) serão salvas as evidências com hora e data para cada vez que a suíte rodar.
 
 O comando para rodar os testes é ***cucumber*** e para isso deverá ser acessada a pasta ***tests***.
 
