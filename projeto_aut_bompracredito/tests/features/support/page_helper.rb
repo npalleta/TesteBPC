@@ -15,4 +15,8 @@ module Pages
   def basic_registration_page
     @basic_registration_page ||= BasicRegistrationPage.new
   end
+
+  def address_registration_page
+    @address_registration_page ||= AddressRegistrationPage.new
+  end
 end

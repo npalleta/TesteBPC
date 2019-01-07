@@ -30,6 +30,16 @@ class Functions
     end
   end
 
+  def self.fill_textbox_in_list_by_index_using_set(elements, index, text)
+    elements.each_with_index do |element, idx|
+      next unless index == idx
+
+      puts "index: #{idx} for #{element['outerHTML']}"
+      return element.set text
+      # ---
+    end
+  end
+
   def self.wait_url_appear(path)
     # puts URI.parse(Capybara.current_url).to_s
     until URI.parse(Capybara.current_url).to_s.include? path
@@ -43,4 +53,8 @@ class Functions
     end
     # puts Capybara.page.find(:xpath, ref)['innerHTML']
   end
+
+  #def self.get_element_by_id_using_script(id, value)
+  #  Capybara.page.find_by_id(id).set value
+  #end
 end

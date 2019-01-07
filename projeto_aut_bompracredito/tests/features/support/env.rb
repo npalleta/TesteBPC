@@ -19,6 +19,7 @@ Capybara.register_driver :selenium do |app|
   if BROWSER.eql?('chrome')
     options = Selenium::WebDriver::Chrome::Options.new
     options.add_argument('--disable-infobars')
+    options.add_argument('--enable-application-cache')
     Capybara::Selenium::Driver.new(
       app,
       browser: :chrome,
