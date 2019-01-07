@@ -1,7 +1,7 @@
 # Teste BomPraCrédito
 
 Esse é o desafio que me foi enviado.
-Foi aqui utilizada a linguagem Ruby e a gems necessárias para a criação da automação:
+Foram utilizadas a linguagem Ruby e a gems necessárias para a criação da automação:
 ```
 - gem 'capybara'
 - gem 'chromedriver-helper'
