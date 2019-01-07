@@ -21,6 +21,7 @@ Para rodar os testes, deverão ser instalados na máquina o pacote Ruby, o Bundl
 
 Para maiores informações, seguem os sites das documentações e introdução ao BDD com Cucumber:
 
+```
 → https://github.com/cucumber/cucumber-ruby
 
 → https://github.com/teamcapybara/capybara
@@ -32,3 +33,4 @@ Para maiores informações, seguem os sites das documentações e introdução a
 → https://medium.com/@rafaelberam/automa%C3%A7%C3%A3o-de-testes-cucumber-selenium-em-ruby-introdu%C3%A7%C3%A3o-e-conceitos-2bfa28793980
 
 → http://shipit.resultadosdigitais.com.br/blog/estruturando-seu-projeto-com-bdd-e-cucumber/
+```
