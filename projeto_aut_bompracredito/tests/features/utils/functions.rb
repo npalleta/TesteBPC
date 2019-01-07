@@ -54,7 +54,7 @@ class Functions
     # puts Capybara.page.find(:xpath, ref)['innerHTML']
   end
 
-  def self.get_element_by_id_using_script(id, value)
+  def self.get_element_by_id_using_set(id, value)
     Capybara.page.find_by_id(id).set value
   end
 end
