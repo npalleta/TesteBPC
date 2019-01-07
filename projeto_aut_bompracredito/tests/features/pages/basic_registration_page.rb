@@ -38,8 +38,11 @@ class BasicRegistrationPage < SitePrism::Page
   end
 
   def click_opt_career(value)
-    Functions.wait_element_enable_by_xpath('//select[@*="profession"]')
-    Functions.get_element_in_list_by_value(opt_profession, value).click
+    if value.gsub(/\s+/, '').casecmp('Estudante').zero?
+    else
+      Functions.wait_element_enable_by_xpath('//select[@*="profession"]')
+      Functions.get_element_in_list_by_value(opt_profession, value).click
+    end
   end
 
   def click_opt_education_degree(value)

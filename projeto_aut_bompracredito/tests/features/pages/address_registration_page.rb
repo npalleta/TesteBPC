@@ -9,7 +9,7 @@ class AddressRegistrationPage < SitePrism::Page
   end
 
   def fill_txt_number(index, text)
-    Functions.fill_textbox_in_list_by_index(text_boxes, index, text)
+    Functions.fill_textbox_in_list_by_index_using_set(text_boxes, index, text)
   end
 
   def fill_txt_additional_data(index, text)
