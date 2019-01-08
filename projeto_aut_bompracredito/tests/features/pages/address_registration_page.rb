@@ -9,6 +9,7 @@ class AddressRegistrationPage < SitePrism::Page
   end
 
   def fill_txt_number(index, text)
+    expect(text_boxes[index][:id].to_s).to eql 'homeAddress.number'
     Functions.fill_textbox_in_list_by_index_using_set(text_boxes, index, text)
   end
 
